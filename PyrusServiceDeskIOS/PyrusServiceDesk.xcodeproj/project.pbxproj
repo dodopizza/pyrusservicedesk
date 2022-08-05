@@ -38,7 +38,6 @@
 		1E0265CA289D360C00CDB6EE /* PSDShareBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E026494289D360C00CDB6EE /* PSDShareBarItemView.swift */; };
 		1E0265CB289D360C00CDB6EE /* PSDChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E026495289D360C00CDB6EE /* PSDChatViewController.swift */; };
 		1E0265CC289D360C00CDB6EE /* PyrusServiceDeskCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E026496289D360C00CDB6EE /* PyrusServiceDeskCustomization.swift */; };
-		1E0265CD289D360C00CDB6EE /* MyLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E026497289D360C00CDB6EE /* MyLibrary.swift */; };
 		1E0265CE289D360C00CDB6EE /* icn_cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E026499289D360C00CDB6EE /* icn_cross@2x.png */; };
 		1E0265CF289D360C00CDB6EE /* icn_approve_medium@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E02649A289D360C00CDB6EE /* icn_approve_medium@3x.png */; };
 		1E0265D0289D360C00CDB6EE /* Black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E02649C289D360C00CDB6EE /* Black@2x.png */; };
@@ -220,7 +219,6 @@
 		1E026680289D360D00CDB6EE /* PSDCoverHorizontalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02655A289D360C00CDB6EE /* PSDCoverHorizontalAnimator.swift */; };
 		1E026681289D360D00CDB6EE /* PyrusServiceDeskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02655B289D360C00CDB6EE /* PyrusServiceDeskController.swift */; };
 		1E026682289D360D00CDB6EE /* PSDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02655C289D360C00CDB6EE /* PSDNavigationController.swift */; };
-		1E026683289D360D00CDB6EE /* ChatListBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02655D289D360C00CDB6EE /* ChatListBarButtonItem.swift */; };
 		1E026684289D360D00CDB6EE /* PSDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02655E289D360C00CDB6EE /* PSDViewController.swift */; };
 		1E026685289D360D00CDB6EE /* PSDChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02655F289D360C00CDB6EE /* PSDChooser.swift */; };
 		1E026686289D360D00CDB6EE /* PSDObjectsCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E026561289D360C00CDB6EE /* PSDObjectsCreator.swift */; };
@@ -240,8 +238,6 @@
 		1E026694289D360D00CDB6EE /* PyrusLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E026571289D360C00CDB6EE /* PyrusLogger.swift */; };
 		1E026695289D360D00CDB6EE /* LogEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E026572289D360C00CDB6EE /* LogEvents.swift */; };
 		1E026696289D360D00CDB6EE /* PSDChatInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E026574289D360C00CDB6EE /* PSDChatInfoTableViewCell.swift */; };
-		1E026697289D360D00CDB6EE /* PSDChatsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E026575289D360C00CDB6EE /* PSDChatsTableView.swift */; };
-		1E026698289D360D00CDB6EE /* PSDChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E026576289D360C00CDB6EE /* PSDChatsViewController.swift */; };
 		1E026699289D360D00CDB6EE /* PSDInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E026577289D360C00CDB6EE /* PSDInfoView.swift */; };
 		1E02669A289D360D00CDB6EE /* OnStopCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E026578289D360C00CDB6EE /* OnStopCallback.swift */; };
 		1E02669B289D360D00CDB6EE /* UITableView + swipeForDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E02657B289D360C00CDB6EE /* UITableView + swipeForDetail.swift */; };
@@ -287,21 +283,9 @@
 		1E0266C3289D360D00CDB6EE /* CloseButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0265A8289D360C00CDB6EE /* CloseButtonItem.swift */; };
 		1E0266C4289D360D00CDB6EE /* [Int+PSDChat]+complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0265AA289D360C00CDB6EE /* [Int+PSDChat]+complete.swift */; };
 		1E0266C5289D360D00CDB6EE /* [Int+PSDChat]+usefulFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0265AB289D360C00CDB6EE /* [Int+PSDChat]+usefulFunc.swift */; };
-		1E0266C6289D360D00CDB6EE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E0265AC289D360C00CDB6EE /* Info.plist */; };
 		1E0266C7289D360D00CDB6EE /* PSDNewReplySubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0265AD289D360C00CDB6EE /* PSDNewReplySubscriber.swift */; };
-		4B7F34DD21F85E2A00977C6D /* PyrusServiceDesk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7F34D321F85E2A00977C6D /* PyrusServiceDesk.framework */; };
-		4B7F34E221F85E2A00977C6D /* PyrusServiceDeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F34E121F85E2A00977C6D /* PyrusServiceDeskTests.swift */; };
+		1E0266C9289D39A200CDB6EE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E0265AC289D360C00CDB6EE /* Info.plist */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4B7F34DE21F85E2A00977C6D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B7F34CA21F85E2A00977C6D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B7F34D221F85E2A00977C6D;
-			remoteInfo = PyrusServiceDesk;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1E026474289D360C00CDB6EE /* PSDMessageSendButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSDMessageSendButton.swift; sourceTree = "<group>"; };
@@ -335,7 +319,6 @@
 		1E026494289D360C00CDB6EE /* PSDShareBarItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSDShareBarItemView.swift; sourceTree = "<group>"; };
 		1E026495289D360C00CDB6EE /* PSDChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSDChatViewController.swift; sourceTree = "<group>"; };
 		1E026496289D360C00CDB6EE /* PyrusServiceDeskCustomization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PyrusServiceDeskCustomization.swift; sourceTree = "<group>"; };
-		1E026497289D360C00CDB6EE /* MyLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLibrary.swift; sourceTree = "<group>"; };
 		1E026499289D360C00CDB6EE /* icn_cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_cross@2x.png"; sourceTree = "<group>"; };
 		1E02649A289D360C00CDB6EE /* icn_approve_medium@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icn_approve_medium@3x.png"; sourceTree = "<group>"; };
 		1E02649C289D360C00CDB6EE /* Black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black@2x.png"; sourceTree = "<group>"; };
@@ -589,9 +572,6 @@
 		1E0265AC289D360C00CDB6EE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E0265AD289D360C00CDB6EE /* PSDNewReplySubscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSDNewReplySubscriber.swift; sourceTree = "<group>"; };
 		4B7F34D321F85E2A00977C6D /* PyrusServiceDesk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PyrusServiceDesk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B7F34DC21F85E2A00977C6D /* PyrusServiceDeskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PyrusServiceDeskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B7F34E121F85E2A00977C6D /* PyrusServiceDeskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyrusServiceDeskTests.swift; sourceTree = "<group>"; };
-		4B7F34E321F85E2A00977C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -599,14 +579,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B7F34D921F85E2A00977C6D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B7F34DD21F85E2A00977C6D /* PyrusServiceDesk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,7 +599,6 @@
 			children = (
 				1E026472289D360C00CDB6EE /* Chat */,
 				1E026496289D360C00CDB6EE /* PyrusServiceDeskCustomization.swift */,
-				1E026497289D360C00CDB6EE /* MyLibrary.swift */,
 				1E026498289D360C00CDB6EE /* images */,
 				1E02654E289D360C00CDB6EE /* PyrusServiceDesk.h */,
 				1E02654F289D360C00CDB6EE /* PSDObjects */,
@@ -1163,7 +1134,6 @@
 			isa = PBXGroup;
 			children = (
 				1E026470289D360C00CDB6EE /* Sources */,
-				4B7F34E021F85E2A00977C6D /* PyrusServiceDeskTests */,
 				4B7F34D421F85E2A00977C6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1172,18 +1142,8 @@
 			isa = PBXGroup;
 			children = (
 				4B7F34D321F85E2A00977C6D /* PyrusServiceDesk.framework */,
-				4B7F34DC21F85E2A00977C6D /* PyrusServiceDeskTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4B7F34E021F85E2A00977C6D /* PyrusServiceDeskTests */ = {
-			isa = PBXGroup;
-			children = (
-				4B7F34E121F85E2A00977C6D /* PyrusServiceDeskTests.swift */,
-				4B7F34E321F85E2A00977C6D /* Info.plist */,
-			);
-			path = PyrusServiceDeskTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1218,24 +1178,6 @@
 			productReference = 4B7F34D321F85E2A00977C6D /* PyrusServiceDesk.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4B7F34DB21F85E2A00977C6D /* PyrusServiceDeskTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B7F34EA21F85E2A00977C6D /* Build configuration list for PBXNativeTarget "PyrusServiceDeskTests" */;
-			buildPhases = (
-				4B7F34D821F85E2A00977C6D /* Sources */,
-				4B7F34D921F85E2A00977C6D /* Frameworks */,
-				4B7F34DA21F85E2A00977C6D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B7F34DF21F85E2A00977C6D /* PBXTargetDependency */,
-			);
-			name = PyrusServiceDeskTests;
-			productName = PyrusServiceDeskTests;
-			productReference = 4B7F34DC21F85E2A00977C6D /* PyrusServiceDeskTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1247,10 +1189,6 @@
 				ORGANIZATIONNAME = " Галина Муравьева";
 				TargetAttributes = {
 					4B7F34D221F85E2A00977C6D = {
-						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1020;
-					};
-					4B7F34DB21F85E2A00977C6D = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1020;
 					};
@@ -1272,7 +1210,6 @@
 			projectRoot = "";
 			targets = (
 				4B7F34D221F85E2A00977C6D /* PyrusServiceDesk */,
-				4B7F34DB21F85E2A00977C6D /* PyrusServiceDeskTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1346,7 +1283,6 @@
 				1E026642289D360C00CDB6EE /* clock-light-28@3x.png in Resources */,
 				1E026649289D360C00CDB6EE /* clock-dark-19@3x.png in Resources */,
 				1E0265D7289D360C00CDB6EE /* back@3x.png in Resources */,
-				1E0266C6289D360D00CDB6EE /* Info.plist in Resources */,
 				1E02663D289D360C00CDB6EE /* clock-light-42@3x.png in Resources */,
 				1E026641289D360C00CDB6EE /* clock-light-55@3x.png in Resources */,
 				1E026606289D360C00CDB6EE /* icn_cross.png in Resources */,
@@ -1361,6 +1297,7 @@
 				1E0265F4289D360C00CDB6EE /* Add@2x.png in Resources */,
 				1E0266A5289D360D00CDB6EE /* Localizable.strings in Resources */,
 				1E026604289D360C00CDB6EE /* ic_menu_close_clear_cancel.png in Resources */,
+				1E0266C9289D39A200CDB6EE /* Info.plist in Resources */,
 				1E02662C289D360C00CDB6EE /* clock-dark-36@3x.png in Resources */,
 				1E026658289D360C00CDB6EE /* clock-light-38@3x.png in Resources */,
 				1E0265D1289D360C00CDB6EE /* Black.png in Resources */,
@@ -1455,13 +1392,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B7F34DA21F85E2A00977C6D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1469,7 +1399,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0265CD289D360C00CDB6EE /* MyLibrary.swift in Sources */,
 				1E0266A1289D360D00CDB6EE /* PSDPreviewSetter.swift in Sources */,
 				1E0266C3289D360D00CDB6EE /* CloseButtonItem.swift in Sources */,
 				1E0265CA289D360C00CDB6EE /* PSDShareBarItemView.swift in Sources */,
@@ -1477,7 +1406,6 @@
 				1E0266BE289D360D00CDB6EE /* String + uuid.swift in Sources */,
 				1E026681289D360D00CDB6EE /* PyrusServiceDeskController.swift in Sources */,
 				1E0266BF289D360D00CDB6EE /* String+Date.swift in Sources */,
-				1E026697289D360D00CDB6EE /* PSDChatsTableView.swift in Sources */,
 				1E0265BF289D360C00CDB6EE /* PSDAttachmentView.swift in Sources */,
 				1E0265C7289D360C00CDB6EE /* PSDAttachmentLoadViewControllerInterface.swift in Sources */,
 				1E026677289D360D00CDB6EE /* PSDRowMessage.swift in Sources */,
@@ -1524,7 +1452,6 @@
 				1E0265C3289D360C00CDB6EE /* PSDUserMessageCell.swift in Sources */,
 				1E0265BD289D360C00CDB6EE /* PSDAvatarImageView.swift in Sources */,
 				1E0265C5289D360C00CDB6EE /* PSDAttachmentLoadViewController.swift in Sources */,
-				1E026698289D360D00CDB6EE /* PSDChatsViewController.swift in Sources */,
 				1E026680289D360D00CDB6EE /* PSDCoverHorizontalAnimator.swift in Sources */,
 				1E026687289D360D00CDB6EE /* PSDMessageSend.swift in Sources */,
 				1E0266B1289D360D00CDB6EE /* Recolorable.swift in Sources */,
@@ -1535,7 +1462,6 @@
 				1E026682289D360D00CDB6EE /* PSDNavigationController.swift in Sources */,
 				1E0266B9289D360D00CDB6EE /* CustomFontHelper.swift in Sources */,
 				1E02668D289D360D00CDB6EE /* PSDGetChats.swift in Sources */,
-				1E026683289D360D00CDB6EE /* ChatListBarButtonItem.swift in Sources */,
 				1E0266C7289D360D00CDB6EE /* PSDNewReplySubscriber.swift in Sources */,
 				1E0265BA289D360C00CDB6EE /* PSDUploadView.swift in Sources */,
 				1E0266A7289D360D00CDB6EE /* customColor.swift in Sources */,
@@ -1583,23 +1509,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B7F34D821F85E2A00977C6D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B7F34E221F85E2A00977C6D /* PyrusServiceDeskTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4B7F34DF21F85E2A00977C6D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B7F34D221F85E2A00977C6D /* PyrusServiceDesk */;
-			targetProxy = 4B7F34DE21F85E2A00977C6D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1E026586289D360C00CDB6EE /* Localizable.strings */ = {
@@ -1815,45 +1725,6 @@
 			};
 			name = Release;
 		};
-		4B7F34EB21F85E2A00977C6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = PyrusServiceDeskTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-23.PyrusServiceDeskTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4B7F34EC21F85E2A00977C6D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
-				INFOPLIST_FILE = PyrusServiceDeskTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-23.PyrusServiceDeskTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1871,15 +1742,6 @@
 			buildConfigurations = (
 				4B7F34E821F85E2A00977C6D /* Debug */,
 				4B7F34E921F85E2A00977C6D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B7F34EA21F85E2A00977C6D /* Build configuration list for PBXNativeTarget "PyrusServiceDeskTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B7F34EB21F85E2A00977C6D /* Debug */,
-				4B7F34EC21F85E2A00977C6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
