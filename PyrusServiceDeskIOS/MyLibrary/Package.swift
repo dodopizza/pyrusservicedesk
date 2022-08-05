@@ -24,6 +24,7 @@ let package = Package(
         .target(
             name: "PyrusServiceDesk",
             dependencies: [],
+            exclude: ["build"],
             resources: [.process("images")]
         ),
     ]
