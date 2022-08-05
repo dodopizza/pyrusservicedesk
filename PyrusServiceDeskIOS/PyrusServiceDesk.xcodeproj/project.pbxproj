@@ -582,6 +582,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E02646F289D2FB500CDB6EE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4B7F34D521F85E2A00977C6D /* PyrusServiceDesk */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		4B062A862518AC7C00B317D3 /* messagePlaceholder */ = {
 			isa = PBXGroup;
 			children = (
@@ -815,7 +823,7 @@
 		4B7F34C921F85E2A00977C6D = {
 			isa = PBXGroup;
 			children = (
-				4B7F34D521F85E2A00977C6D /* Sources */,
+				1E02646F289D2FB500CDB6EE /* Sources */,
 				4B7F34E021F85E2A00977C6D /* PyrusServiceDeskTests */,
 				4B7F34D421F85E2A00977C6D /* Products */,
 			);
@@ -830,7 +838,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B7F34D521F85E2A00977C6D /* Sources */ = {
+		4B7F34D521F85E2A00977C6D /* PyrusServiceDesk */ = {
 			isa = PBXGroup;
 			children = (
 				4B7F34D621F85E2A00977C6D /* PyrusServiceDesk.h */,
@@ -853,7 +861,7 @@
 				4B8EE7CC255AE4160068B266 /* LogsSendController.swift */,
 				7B743A8124D2E1A300B34904 /* assets.xcassets */,
 			);
-			path = Sources;
+			path = PyrusServiceDesk;
 			sourceTree = "<group>";
 		};
 		4B7F34E021F85E2A00977C6D /* PyrusServiceDeskTests */ = {
